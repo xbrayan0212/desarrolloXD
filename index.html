@@ -1,217 +1,23 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Auditorías Ambientales Panamá</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Sitio Web</title>
 
-<!-- Google Tag Manager -->
-<script>
-(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-KHJ4RRV5');
-</script>
-<!-- End Google Tag Manager -->
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-G63PTXM94T"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-<style>
-  /* Reset básico */
-  * {
-    margin: 0; padding: 0; box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-
-  body {
-    background: #f0f9f4;
-    color: #114b30;
-    line-height: 1.6;
-  }
-
-  header {
-    background: #1a5a2a;
-    padding: 2rem 1rem;
-    text-align: center;
-    color: #e6f2e6;
-  }
-  header h1 {
-    font-size: 2.8rem;
-    margin-bottom: 0.3rem;
-  }
-  header p {
-    font-size: 1.1rem;
-    font-weight: 300;
-  }
-  
-  nav {
-    margin-top: 1rem;
-  }
-  nav a {
-    color: #cde6cd;
-    text-decoration: none;
-    margin: 0 1rem;
-    font-weight: 600;
-    transition: color 0.3s ease;
-  }
-  nav a:hover {
-    color: #d4f1d4;
-  }
-
-  main {
-    max-width: 900px;
-    margin: 2rem auto;
-    padding: 0 1rem;
-  }
-
-  section {
-    margin-bottom: 3rem;
-  }
-
-  h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    border-bottom: 3px solid #1a5a2a;
-    display: inline-block;
-    padding-bottom: 0.3rem;
-  }
-
-  .cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
-    gap: 1.5rem;
-  }
-
-  .card {
-    background: white;
-    padding: 1.5rem;
-    border-radius: 10px;
-    box-shadow: 0 8px 15px rgba(26, 90, 42, 0.2);
-    transition: box-shadow 0.3s ease;
-    text-align: center;
-  }
-  .card:hover {
-    box-shadow: 0 12px 20px rgba(26, 90, 42, 0.4);
-  }
-  .card .icon {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-  }
-  .card h3 {
-    margin-bottom: 0.8rem;
-    color: #1a5a2a;
-  }
-  .card p {
-    font-weight: 400;
-    font-size: 0.95rem;
-    color: #385d35;
-  }
-
-  footer {
-    background: #1a5a2a;
-    color: #cde6cd;
-    text-align: center;
-    padding: 1.2rem 1rem;
-    font-size: 0.9rem;
-  }
-
-  /* Botón para "volver arriba" */
-  #topBtn {
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    background: #1a5a2a;
-    color: #e6f2e6;
-    border: none;
-    padding: 0.7rem 1.1rem;
-    border-radius: 50%;
-    font-size: 1.4rem;
-    cursor: pointer;
-    opacity: 0;
-    transition: opacity 0.4s ease;
-  }
-  #topBtn.show {
-    opacity: 1;
-  }
-
-  @media (max-width: 600px) {
-    header h1 {
-      font-size: 2rem;
-    }
-    nav a {
-      margin: 0 0.6rem;
-      font-size: 0.9rem;
-    }
-  }
-</style>
+    gtag('config', 'G-G63PTXM94T');
+  </script>
+  <!-- Fin de la etiqueta de Google -->
 </head>
 <body>
-
-<!-- Google Tag Manager (noscript) -->
-<noscript>
-  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KHJ4RRV5"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe>
-</noscript>
-<!-- End Google Tag Manager (noscript) -->
-
-<header>
-  <h1>Auditorías Ambientales Panamá</h1>
-  <p>Protegiendo nuestro entorno, promoviendo la sostenibilidad</p>
-  <nav>
-    <a href="#servicios">Servicios</a>
-    <a href="#contacto">Contacto</a>
-  </nav>
-</header>
-
-<main>
-  <section id="servicios">
-    <h2>Servicios Destacados</h2>
-    <div class="cards">
-      <div class="card">
-        <div class="icon">📋</div>
-        <h3>Planificación de Auditorías</h3>
-        <p>Organizamos auditorías ambientales rigurosas para cumplir con la legislación vigente.</p>
-      </div>
-      <div class="card">
-        <div class="icon">✅</div>
-        <h3>Evaluación y Certificación</h3>
-        <p>Certificamos empresas comprometidas con las mejores prácticas ambientales.</p>
-      </div>
-      <div class="card">
-        <div class="icon">🌿</div>
-        <h3>Asesoría Ambiental</h3>
-        <p>Apoyamos proyectos sostenibles para proteger nuestros recursos naturales.</p>
-      </div>
-    </div>
-  </section>
-
-  <section id="contacto">
-    <h2>Contacto</h2>
-    <p>Ministerio de Ambiente de Panamá</p>
-    <p>Email: contacto@ambiente.gob.pa</p>
-    <p>Teléfono: +507 1234-5678</p>
-  </section>
-</main>
-
-<footer>
-  © 2025 Ministerio de Ambiente de Panamá. Todos los derechos reservados.
-</footer>
-
-<button id="topBtn" title="Volver arriba">⬆️</button>
-
-<script>
-  // Mostrar botón "Volver arriba" cuando bajas scroll
-  const topBtn = document.getElementById('topBtn');
-  window.addEventListener('scroll', () => {
-    if (window.scrollY > 300) {
-      topBtn.classList.add('show');
-    } else {
-      topBtn.classList.remove('show');
-    }
-  });
-  topBtn.addEventListener('click', () => {
-    window.scrollTo({top:0, behavior: 'smooth'});
-  });
-</script>
-
+  <h1>Bienvenido a Mi Sitio Web</h1>
+  <p>Este es un ejemplo básico de una página con Google Analytics 4 implementado.</p>
 </body>
 </html>
